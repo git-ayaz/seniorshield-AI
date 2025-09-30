@@ -1,11 +1,11 @@
-# Frontend Setup for WisdomWealth
+# Frontend Setup for SeniorShield
 # Run this in a separate terminal after the backend is running
 
-Write-Host "🌐 WisdomWealth Frontend Setup" -ForegroundColor Green
+Write-Host "🌐 SeniorShield Frontend Setup" -ForegroundColor Green
 Write-Host "=============================="
 
 # Check if we're in the right directory
-if (-not (Test-Path "wisdomwealth")) {
+if (-not (Test-Path "seniorshield")) {
     Write-Host "❌ Please run this script from the Ackero directory" -ForegroundColor Red
     exit 1
 }
@@ -14,7 +14,7 @@ Write-Host ""
 Write-Host "📋 Setting up React Frontend" -ForegroundColor Yellow
 
 # Navigate to web directory
-Set-Location "wisdomwealth\web"
+Set-Location "seniorshield\web"
 
 # Check if Node.js is installed
 try {

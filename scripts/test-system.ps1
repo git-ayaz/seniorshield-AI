@@ -1,7 +1,7 @@
-# WisdomWealth System Test Script
+# SeniorShield System Test Script
 # Tests all agents with comprehensive scenarios
 
-Write-Host "🚀 Starting WisdomWealth System Tests..." -ForegroundColor Green
+Write-Host "🚀 Starting SeniorShield System Tests..." -ForegroundColor Green
 Write-Host "=" * 50
 
 $baseUrl = "http://localhost:8000"
@@ -189,7 +189,7 @@ if ($failedTests -gt 0) {
 
 Write-Host ""
 if ($failedTests -eq 0) {
-    Write-Host "🎉 All tests passed! Your WisdomWealth system is working perfectly!" -ForegroundColor Green
+    Write-Host "🎉 All tests passed! Your SeniorShield system is working perfectly!" -ForegroundColor Green
 } else {
     Write-Host "⚠️  Some tests failed. Please check the agent implementations and try again." -ForegroundColor Yellow
 }

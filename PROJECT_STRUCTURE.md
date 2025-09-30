@@ -4,7 +4,7 @@
 
 ```
 C:\Users\altaf\Desktop\Ackero\
-└── wisdomwealth/                    # ✅ MAIN PROJECT
+└── seniorshield/                    # ✅ MAIN PROJECT
     ├── README.md                    # ✅ Comprehensive documentation
     ├── scripts/                     # ✅ Utility scripts
     │   ├── start-backend.ps1        # ✅ Start Python backend
@@ -29,7 +29,7 @@ C:\Users\altaf\Desktop\Ackero\
     └── web/                         # ✅ React Frontend
         ├── src/
         │   ├── components/
-        │   │   └── WisdomWealthApp.jsx # ✅ Main React app
+        │   │   └── SeniorShieldApp.jsx # ✅ Main React app
         │   ├── main.jsx             # ✅ React entry point
         │   └── index.css            # ✅ Styles
         ├── package.json             # ✅ Node dependencies
@@ -40,12 +40,12 @@ C:\Users\altaf\Desktop\Ackero\
 ## 🗑️ Removed Files/Folders
 
 ### ❌ Duplicate Agent Folders (DELETED)
-- `family_agent/` - Moved to wisdomwealth/agents/app/agents/
+- `family_agent/` - Moved to seniorshield/agents/app/agents/
 - `heathcare_finance_agent/` - Consolidated into healthcare_agent.py
-- `wisdomwealth-estate-agent/` - Moved to wisdomwealth/agents/app/agents/
+- `seniorshield-estate-agent/` - Moved to seniorshield/agents/app/agents/
 
 ### ❌ Duplicate React Components (DELETED)
-- `ElderChat.jsx` - Replaced by WisdomWealthApp.jsx
+- `ElderChat.jsx` - Replaced by SeniorShieldApp.jsx
 - `ElderChat.tsx` - Not needed (using .jsx)
 
 ### ❌ Standalone Files (DELETED)
@@ -80,19 +80,19 @@ C:\Users\altaf\Desktop\Ackero\
 
 1. **Start Backend**:
    ```powershell
-   cd wisdomwealth
+   cd seniorshield
    .\scripts\start-backend.ps1
    ```
 
 2. **Start Frontend**:
    ```powershell
-   cd wisdomwealth  
+   cd seniorshield  
    .\scripts\start-frontend.ps1
    ```
 
 3. **Run Tests**:
    ```powershell
-   cd wisdomwealth
+   cd seniorshield
    .\scripts\test-system.ps1
    ```
 

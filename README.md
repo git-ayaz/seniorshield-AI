@@ -1,8 +1,8 @@
-# 🚀 WisdomWealth - Complete Deployment Guide
+# 🚀 SeniorShield - Complete Deployment Guide
 
 ## **Project Structure**
 ```
-wisdomwealth/
+seniorshield/
 ├── agents/                 # FastAPI Backend (Railway)
 │   ├── app/
 │   │   ├── main.py        # FastAPI application
@@ -37,7 +37,7 @@ wisdomwealth/
    - Root Directory: `agents`
    - Start Command: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
 5. **Add Persistent Volume**: Mount at `/data`
-6. **Deploy** and note the public URL (e.g., `https://wisdomwealth-agents.railway.app`)
+6. **Deploy** and note the public URL (e.g., `https://seniorshield-agents.railway.app`)
 
 ### **Step 2: Deploy React Frontend to Vercel**
 
@@ -46,7 +46,7 @@ wisdomwealth/
 3. **Set Root Directory**: `web`
 4. **Set Environment Variables**:
    ```bash
-   FASTAPI_URL=https://wisdomwealth-agents.railway.app
+   FASTAPI_URL=https://seniorshield-agents.railway.app
    ```
 5. **Deploy** and note the frontend URL
 
@@ -94,7 +94,7 @@ Expected: HIGH risk, fraud+family agents, actions include HANG_UP, DO_NOT_ALLOW_
 
 ### **Backend (Python)**
 ```bash
-cd wisdomwealth/agents
+cd seniorshield/agents
 pip install -r requirements.txt
 export GEMINI_API_KEY="AIzaSyCvJvE7DMeIURv9QN1Lck7xQgFXFa4L_6s"
 export DATA_DIR="./data"
@@ -103,7 +103,7 @@ uvicorn app.main:app --reload --port 8000
 
 ### **Frontend (React)**
 ```bash
-cd wisdomwealth/web
+cd seniorshield/web
 npm install
 npm run dev
 # Runs on http://localhost:3000
@@ -203,4 +203,4 @@ curl -X POST https://your-vercel-app.vercel.app/api/route \
 
 ---
 
-**🎉 Congratulations! Your WisdomWealth platform is ready to protect elderly users from financial scams and fraud.**
+**🎉 Congratulations! Your SeniorShield platform is ready to protect elderly users from financial scams and fraud.**

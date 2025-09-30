@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 
 # Initialize FastAPI app
 app = FastAPI(
-    title="WisdomWealth Agent API",
+    title="SeniorShield Agent API",
     description="Multi-agent AI platform for elderly financial security",
     version="1.0.0"
 )
@@ -50,7 +50,7 @@ coordinator = None
 @app.on_event("startup")
 async def startup_event():
     global coordinator
-    logger.info("Starting WisdomWealth Agent API...")
+    logger.info("Starting SeniorShield Agent API...")
     try:
         coordinator = AgentCoordinator()
         logger.info("✅ AgentCoordinator initialized successfully")
@@ -89,7 +89,7 @@ class ErrorResponse(BaseModel):
 async def root():
     """Root endpoint with API information"""
     return {
-        "message": "WisdomWealth Agent API is running",
+        "message": "SeniorShield Agent API is running",
         "version": "1.0.0",
         "endpoints": ["/health", "/route"],
         "timestamp": datetime.now().isoformat()
@@ -282,7 +282,7 @@ if __name__ == "__main__":
     port = int(os.getenv("PORT", 8000))
     host = os.getenv("HOST", "0.0.0.0")
     
-    logger.info(f"Starting WisdomWealth Agent API on {host}:{port}")
+    logger.info(f"Starting SeniorShield Agent API on {host}:{port}")
     
     uvicorn.run(
         "main:app",

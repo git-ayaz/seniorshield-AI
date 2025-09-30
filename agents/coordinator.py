@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 
 class AgentCoordinator:
     """
-    Coordinates multiple specialized agents for WisdomWealth platform
+    Coordinates multiple specialized agents for SeniorShield platform
     Routes requests to appropriate agents and merges responses
     """
     

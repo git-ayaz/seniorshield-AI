@@ -85,7 +85,7 @@ def final_verification_test():
     print(f"\n{'🎉' if all_structured else '⚠️'} Overall Status: {'ALL AGENTS NOW HAVE STRUCTURED RESPONSES!' if all_structured else 'Some agents still need improvement'}")
     
     if all_structured:
-        print("\n🎯 SUCCESS: All WisdomWealth AI agents now provide:")
+        print("\n🎯 SUCCESS: All SeniorShield AI agents now provide:")
         print("   • Clear, senior-friendly structured responses")
         print("   • Organized sections with emojis and bullet points") 
         print("   • Detailed guidance and actionable steps")

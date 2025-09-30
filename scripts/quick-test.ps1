@@ -1,5 +1,5 @@
 # Simple System Test
-Write-Host "Testing WisdomWealth System..." -ForegroundColor Green
+Write-Host "Testing SeniorShield System..." -ForegroundColor Green
 
 # Test 1: Health Check
 Write-Host "1. Testing Backend Health..." -ForegroundColor Yellow

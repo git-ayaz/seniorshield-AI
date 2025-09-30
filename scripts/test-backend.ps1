@@ -1,7 +1,7 @@
-# Quick test script for WisdomWealth backend
+# Quick test script for SeniorShield backend
 # Make sure backend is running first (python start-backend.ps1)
 
-Write-Host "🧪 Testing WisdomWealth Backend" -ForegroundColor Green
+Write-Host "🧪 Testing SeniorShield Backend" -ForegroundColor Green
 Write-Host "==============================="
 
 $backendUrl = "http://localhost:8000"

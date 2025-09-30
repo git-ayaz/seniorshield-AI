@@ -1,6 +1,6 @@
 ﻿import React, { useState, useRef } from 'react';
 
-const WisdomWealthApp = () => {
+const SeniorShieldApp = () => {
   const [currentPage, setCurrentPage] = useState('home');
   const [message, setMessage] = useState('');
   const [loading, setLoading] = useState(false);
@@ -82,7 +82,7 @@ const WisdomWealthApp = () => {
               margin: 0,
               lineHeight: 1
             }}>
-              WisdomWealth
+              SeniorShield
             </h1>
             <p style={{
               fontSize: 'var(--text-xs)',
@@ -699,7 +699,7 @@ const WisdomWealthApp = () => {
                 fontWeight: '600',
                 color: 'var(--gray-900)'
               }}>
-                WisdomWealth Security AI
+                SeniorShield Security AI
               </h2>
               <p style={{
                 margin: 0,
@@ -1224,7 +1224,7 @@ const WisdomWealthApp = () => {
             }}>
               <div style={{ fontSize: '60px', marginBottom: '20px' }}>🤖</div>
               <h3 style={{ fontSize: '1.5em', marginBottom: '15px', color: '#2c3e50' }}>
-                Welcome to WisdomWealth Security!
+                Welcome to SeniorShield Security!
               </h3>
               <p style={{ fontSize: '1.1em', marginBottom: '30px' }}>
                 I'm here to help protect you from scams, understand medical bills, and manage your finances safely.
@@ -2009,4 +2009,4 @@ const WisdomWealthApp = () => {
   );
 };
 
-export default WisdomWealthApp;
+export default SeniorShieldApp;

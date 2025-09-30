@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 
-const WisdomWealthApp = () => {
+const SeniorShieldApp = () => {
   const [currentPage, setCurrentPage] = useState('home');
   const [message, setMessage] = useState('');
   const [loading, setLoading] = useState(false);
@@ -72,7 +72,7 @@ const WisdomWealthApp = () => {
             fontWeight: '600',
             color: 'var(--gray-900)'
           }}>
-            WisdomWealth
+            SeniorShield
           </span>
         </div>
 
@@ -435,7 +435,7 @@ const WisdomWealthApp = () => {
                 fontWeight: '600',
                 color: 'var(--gray-900)'
               }}>
-                WisdomWealth Security AI
+                SeniorShield Security AI
               </h2>
               <p style={{
                 margin: 0,
@@ -1115,4 +1115,4 @@ const WisdomWealthApp = () => {
   );
 };
 
-export default WisdomWealthApp;
+export default SeniorShieldApp;

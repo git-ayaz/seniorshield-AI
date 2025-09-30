@@ -8,7 +8,7 @@ from pathlib import Path
 
 class SQLiteHelper:
     def __init__(self, db_path: str = None):
-        self.db_path = db_path or os.path.join(os.getenv('DATA_DIR', 'data'), 'wisdomwealth.db')
+        self.db_path = db_path or os.path.join(os.getenv('DATA_DIR', 'data'), 'seniorshield.db')
         
         # Ensure directory exists
         Path(self.db_path).parent.mkdir(parents=True, exist_ok=True)

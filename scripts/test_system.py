@@ -119,7 +119,7 @@ def test_scenario(scenario):
 
 def main():
     """Run all tests"""
-    print("🧪 WisdomWealth System Testing")
+    print("🧪 SeniorShield System Testing")
     print("=" * 50)
     
     # Test health first

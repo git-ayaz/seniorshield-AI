@@ -1,11 +1,11 @@
-# Local Testing Setup for WisdomWealth
+# Local Testing Setup for SeniorShield
 # Run this script to test the system locally
 
-Write-Host "🚀 WisdomWealth Local Testing Setup" -ForegroundColor Green
+Write-Host "🚀 SeniorShield Local Testing Setup" -ForegroundColor Green
 Write-Host "=================================="
 
 # Check if we're in the right directory
-if (-not (Test-Path "wisdomwealth")) {
+if (-not (Test-Path "seniorshield")) {
     Write-Host "❌ Please run this script from the Ackero directory" -ForegroundColor Red
     exit 1
 }
@@ -14,7 +14,7 @@ Write-Host ""
 Write-Host "📋 Step 1: Setting up Python Backend" -ForegroundColor Yellow
 
 # Navigate to agents directory
-Set-Location "wisdomwealth\agents"
+Set-Location "seniorshield\agents"
 
 # Check if Python is installed
 try {

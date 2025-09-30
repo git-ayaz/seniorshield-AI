@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import WisdomWealthApp from './components/WisdomWealthApp.jsx'
+import SeniorShieldApp from './components/SeniorShieldApp.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <WisdomWealthApp />
+    <SeniorShieldApp />
   </React.StrictMode>,
 )
