@@ -96,7 +96,7 @@ Expected: HIGH risk, fraud+family agents, actions include HANG_UP, DO_NOT_ALLOW_
 ```bash
 cd seniorshield/agents
 pip install -r requirements.txt
-export GEMINI_API_KEY="AIzaSyCvJvE7DMeIURv9QN1Lck7xQgFXFa4L_6s"
+export GEMINI_API_KEY="AIzaSyAWO0Wp0tsTE4B29fXpsP9fq5ZB4s1qOug"
 export DATA_DIR="./data"
 uvicorn app.main:app --reload --port 8000
 ```

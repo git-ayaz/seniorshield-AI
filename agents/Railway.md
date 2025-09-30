@@ -5,7 +5,7 @@
 Set these in Railway dashboard:
 
 ```bash
-GEMINI_API_KEY=AIzaSyCvJvE7DMeIURv9QN1Lck7xQgFXFa4L_6s
+GEMINI_API_KEY=AIzaSyAWO0Wp0tsTE4B29fXpsP9fq5ZB4s1qOug
 PORT=8000
 HOST=0.0.0.0
 DATA_DIR=/data

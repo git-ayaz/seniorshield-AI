@@ -3,7 +3,6 @@
 ## 📁 Clean Project Organization
 
 ```
-C:\Users\altaf\Desktop\Ackero\
 └── seniorshield/                    # ✅ MAIN PROJECT
     ├── README.md                    # ✅ Comprehensive documentation
     ├── scripts/                     # ✅ Utility scripts
