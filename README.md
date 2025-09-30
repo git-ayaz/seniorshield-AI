@@ -28,7 +28,7 @@ seniorshield/
 2. **Create New Project** → Deploy from GitHub
 3. **Set Environment Variables**:
    ```bash
-   GEMINI_API_KEY=AIzaSyCvJvE7DMeIURv9QN1Lck7xQgFXFa4L_6s
+   GEMINI_API_KEY="PASTE YOUR API KEY"
    PORT=8000
    DATA_DIR=/data
    ENABLE_RETRIEVAL=true
@@ -96,7 +96,7 @@ Expected: HIGH risk, fraud+family agents, actions include HANG_UP, DO_NOT_ALLOW_
 ```bash
 cd seniorshield/agents
 pip install -r requirements.txt
-export GEMINI_API_KEY="AIzaSyAWO0Wp0tsTE4B29fXpsP9fq5ZB4s1qOug"
+export GEMINI_API_KEY="PASTE YOUR API KEY"
 export DATA_DIR="./data"
 uvicorn app.main:app --reload --port 8000
 ```
@@ -159,48 +159,3 @@ curl -X POST https://your-vercel-app.vercel.app/api/route \
 - Check Railway logs for agent initialization
 - Monitor Vercel function logs for API errors
 - Track database operations in SQLite
-
-## **🚀 Go-Live Checklist**
-
-- [ ] Railway backend deployed and healthy
-- [ ] Vercel frontend deployed and responsive
-- [ ] All 6 test scenarios pass
-- [ ] Environment variables set correctly
-- [ ] Persistent volumes configured
-- [ ] Error monitoring enabled
-- [ ] Domain configured (optional)
-- [ ] SSL certificates active
-
-## **🛠️ Troubleshooting**
-
-### **Common Issues**
-
-1. **"AgentCoordinator not initialized"**
-   - Check GEMINI_API_KEY is set
-   - Verify Railway deployment logs
-   - Check agent imports in coordinator.py
-
-2. **"Backend service not configured"**
-   - Verify FASTAPI_URL in Vercel environment
-   - Check Railway public URL is correct
-   - Test backend /health endpoint directly
-
-3. **High response times**
-   - Check Gemini API quota/limits
-   - Verify ChromaDB initialization
-   - Monitor SQLite database size
-
-4. **ChromaDB errors**
-   - Ensure persistent volume is mounted
-   - Check DATA_DIR permissions
-   - Verify ENABLE_RETRIEVAL setting
-
-## **📞 Support Contacts**
-
-- **Technical Issues**: Check GitHub issues
-- **API Limits**: Monitor Gemini API console
-- **Deployment**: Railway/Vercel documentation
-
----
-
-**🎉 Congratulations! Your SeniorShield platform is ready to protect elderly users from financial scams and fraud.**
