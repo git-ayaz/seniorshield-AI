@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.cache/
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.env.*
+.envrc
+
+# Data / DBs
+data/*.db
+data/*.sqlite
+*.sqlite3
+*.db
+
+# Node / JS
+node_modules/
+web/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Frontend build
+web/dist/
+web/.vite/
+web/.next/
+web/.vercel/
+dist/
+build/
+coverage/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Misc tools
+.chroma/
+.chromadb/
+chroma/
+
+
